@@ -1,0 +1,91 @@
+.list-item
+{
+  border-bottom-width: 1;
+  border-color: $white;
+  height: 50;
+
+  Label
+  {
+    font-weight: bold;
+    margin-left: 6;
+    vertical-align: center;
+
+    &.arrow
+    {
+      font-size: 25;
+    }
+
+  }
+}
+
+.icon-grid
+{
+  flex-wrap: wrap;
+  border-top-width: 1;
+  border-color: white;
+
+  StackLayout
+  {
+    width: 49.9%;
+    padding-top: 30;
+    padding-bottom: 30;
+    text-align: center;
+    border-color: white;
+    border-bottom-width: 1;
+
+    &.even
+    {
+      border-right-width: 1;
+    }
+
+    LABEL
+    {
+      font-weight: bold;
+    }
+
+    Image
+    {
+      horizontal-align: center;
+      margin-bottom: 15;
+    }
+  }
+}
+
+.image-list
+{
+  .item
+  {
+    border-bottom-width: 1;
+    border-bottom-color: #fff;
+
+    .label
+    {
+      padding-left: 7;
+    }
+    
+    .title
+    {
+      font-weight: bold;
+      flex-grow: 1;
+    }
+
+    .arrow
+    {
+      width: 16;
+      font-size: 25;
+    }
+  }
+}
+
+.modal-title
+{
+    height: 40;
+    text-align: center;
+    background: #000;
+
+    Label
+    {
+        vertical-align: middle;
+    }
+}
+

@@ -1,0 +1,152 @@
+.fa {
+  font-family: "FontAwesome";
+}
+
+// .font-roboto-cnd, .font-roboto-cnd-bld {
+//   font-family: "Roboto Condensed Bold", "RobotoCondensed-Bold";
+// }
+
+.font-roboto-cnd-bld {
+  font-family: "Roboto Condensed Bold", "RobotoCondensed-Bold";
+}
+
+.font-roboto-cnd-reg, .font-roboto-cnd {
+  font-family: "Roboto Condensed", "Roboto Condensed Regular", "RobotoCondensed-Regular";
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-size-s1
+{
+  font-size: $font-size-s1;
+}
+
+.font-size-n
+{
+  font-size: $font-size-n;
+}
+
+.font-size-m1
+{
+  font-size: $font-size-m1;
+}
+
+.font-size-l1
+{
+  font-size: $font-size-l1;
+}
+
+.font-size-l2
+{
+  font-size: $font-size-l2;
+}
+
+.font-size-l3
+{
+  font-size: $font-size-l3;
+}
+
+// Layout
+.text-center
+{
+  text-align: center;
+  horizontal-align: center;
+  // horizontal-alignment: center;
+}
+
+.text-right
+{
+  text-align: right;
+}
+
+.color-white
+{
+  color: $white;
+}
+
+.color-green-1
+{
+  color: $green-1;
+}
+
+.bg-blue-1
+{
+  background-color: $blue-1;
+}
+
+$margins: (5,10,15,20);
+@each $m in $margins {
+  .m-t-#{$m} {
+      margin-top: $m;
+  }
+}
+@each $m in $margins {
+  .m-b-#{$m} {
+      margin-bottom: $m;
+  }
+}
+@each $m in $margins {
+  .m-tb-#{$m} {
+      margin-top: $m;
+      margin-bottom: $m;
+  }
+}
+
+.close-modal
+{
+  color: #000;
+  margin-left: 5;
+  font-size: 16;
+  font-weight: bold;
+}
+
+// Forms
+// Button
+.btn
+{
+  padding: 10 12;
+  border-radius: 1;
+  // height: 80;
+  
+  &.btn-green-1, &.btn-primary
+  {
+    background: $green-1;
+    color: $white;
+  }
+
+  &.btn-blue-2
+  {
+    background: $blue-2;
+    color: $white;
+  }
+}
+
+.input-field {
+  padding: 10 12;
+  margin-bottom: 5;
+  background: #50FFFFFF;
+}
+
+.input
+{
+  placeholder-color: #60FFFFFF;
+}
+
+.list-view
+{
+  background-color: $blue-1;
+
+  Label
+  {
+    padding: 10 10 10 20;
+  }
+}
+
+@import 'scss/pages';
+@import 'scss/components';

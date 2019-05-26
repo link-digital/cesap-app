@@ -1,0 +1,67 @@
+Page
+{
+  font-family: "Roboto Condensed", "Roboto Condensed Regular", "RobotoCondensed-Regular";
+  font-size: $font-size-n;
+  color: white;
+}
+
+.page
+{
+  background: $blue-1;
+}
+
+.header 
+{
+  background: #ffffff;
+  padding: 10 0;
+}
+
+.header .btn-menu
+{
+  padding: 0;
+  width: 50;
+  background-color: $white;
+  border-color: $white;
+  border-width: 1;
+  border: $white;
+  color: #000000;
+  height: 35;
+  box-shadow: none;
+}
+
+.line
+{
+  border-bottom-width: 1;
+  border-color: $white;
+}
+
+.content-head
+{
+  height: 40;
+  font-size: $font-size-l1;
+  border-bottom-width: 1;
+  border-bottom-color: transparent;
+  margin-bottom: 1px;
+
+  &.border
+  {
+    border-bottom-width: 2px;
+    border-bottom-color: #fff;
+  }
+
+  .nav-title
+  {
+    font-weight: bold;
+    vertical-align: center;
+    width: 100%;
+    padding: 7 0 0 0;
+  }
+
+  .nav-back
+  {
+    padding: 8 0 5 20;
+    width: 40;
+  }
+
+}
+

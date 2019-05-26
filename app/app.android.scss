@@ -1,0 +1,31 @@
+// Global SCSS styling
+// @see https://docs.nativescript.org/ui/styling
+
+@import 'scss/app-variables';
+@import 'scss/app-common';
+
+.input {
+  background: #00ffffff;
+  padding: 0;
+}
+
+.header .btn-menu
+{
+  padding: 0;
+}
+
+.nav-back
+{
+  font-size: 24;
+  padding-left: 10;
+}
+
+.page-date-picker
+{
+  background: #ffffff;
+}
+
+.btn
+{
+  padding: 5 12 !important;
+}
