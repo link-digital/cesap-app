@@ -81,7 +81,7 @@
         events: [],
         sending: false,
         users:['Invitado', 'Afiliado'],
-        spaces:['Salón Principal', 'Salón Rojo', 'Salón Verde'],
+        spaces:['Área Domo', 'Auditorio', 'Kiosco Asador', 'Kiosco Tertulia', 'Salón Atanasio', 'Salón Colombia', 'Salón Córdoba', 'Salón Santander', 'Salón Nariño', 'Salón Simón Bolivar'],
         dateInActive: false,
         dateOutActive: false,
         checks: {

@@ -12,7 +12,7 @@
 
       <StackLayout class="titles" orientation="horizontal">
         <Label text="DEPENDENCIA" class="color-green-1" width="50%" />
-        <Label text="EXTENSIÓN" class="color-green-1 text-right" width="50%" />
+        <Label text="TELÉFONO/EXTENSIÓN" class="color-green-1 text-right" width="50%" />
       </StackLayout>
 
       <GridLayout columns="*" rows="*">
@@ -51,7 +51,7 @@
       directory: [
         {
           name: 'Admin hotel',
-          ext: '416',
+          ext: '312 508 9444',
         },
         {
           name: 'Administración',

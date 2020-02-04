@@ -47,8 +47,8 @@
         isLoggingIn: true,
         processing: false,
         user: {
-          username: "Demo B",
-          password: "demo",
+          username: "",
+          password: "",
         }
       };
     },

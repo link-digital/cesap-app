@@ -13,7 +13,7 @@
         <FlexboxLayout flexWrap="wrap" alignItems="center">
           <template class="item" v-for="(space, index) in items">
             <Image @tap="selfTo(space)" :key="'i'+index" width="45%" class="ico" :src="space.image" stretch="aspectFit"></Image>
-            <Label @tap="selfTo(space)" :key="'t'+index" verticalAlignment="middle" width="49.5%" class="title" paddingLeft="10" :text="space.title"></Label>
+            <Label @tap="selfTo(space)" :key="'t'+index" verticalAlignment="middle" width="49.5%" class="title" paddingLeft="10" textWrap="true" :text="space.title"></Label>
             <Label @tap="selfTo(space)" :key="'a'+index" verticalAlignment="middle" width="5%" class="fa color-green-1 arrow" :text="'\uf105'" fontSize="20" />
             <Label @tap="selfTo(space)" :key="'l'+index" width="100%" height="1" borderBottomWidth="1" borderColor="#ffffff" />
           </template>

@@ -14,7 +14,7 @@
             <Image class="ico" src="res://eventos" stretch="none"></Image>
             <Label>SALONES & EVENTOS</Label>
           </StackLayout>
-          <StackLayout class="odd" @tap="navTo('ReservationHotel')">
+          <StackLayout class="odd" @tap="openReservationsPage()">
             <Image class="ico" src="res://hotel" stretch="none"></Image>
             <Label>HOTEL</Label>
           </StackLayout>
@@ -45,6 +45,7 @@
   import TitleBar from '~/components/TitleBar'
   import MenuBar from '~/components/MenuBar'
   import {dial} from 'nativescript-phone'
+  import {openUrl} from "utils/utils";
 
   import {GC} from "tns-core-modules/utils/utils";
 
@@ -64,6 +65,10 @@
       garbage(){
         console.log('Garbage ******');
         GC();
+      },
+
+      openReservationsPage(){
+        openUrl('http://190.85.14.22:8088/ZeusOnline/public/searchresult_lst.aspx?id_hotel=0&am_adult=1&am_child=0&am_additional=0&dt_from=2019/10/28&dt_to=2019/10/31&am_room=1&ds_starFilter=&ds_childrenage=&cd_plan=&ds_adultsage=&id_money=&ds_additionalage=');
       }
     },
 
