@@ -111,8 +111,11 @@ export default {
         .then((r) => {
           Session.setToken(r.token);
           Session.setUser(r.user);
+          // return this;
         }).catch(r => {
           console.log(r);
+          throw r;
+          // return this;
         });
     },
     
