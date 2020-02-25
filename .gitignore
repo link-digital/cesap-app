@@ -2,6 +2,8 @@
 /b-android
 /b-ios
 
+.vscode*
+
 #settings
 /app/config.js
 
