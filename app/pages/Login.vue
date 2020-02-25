@@ -2,7 +2,7 @@
   <Page actionBarHidden="true">
     <FlexboxLayout class="page">
       <StackLayout class="form">
-        <Image class="logo" src="~/assets/img/login-logo.png"></Image>
+        <Image class="logo" src="res://login_logo"></Image>
         <Label class="font-roboto-cnd font-bold font-size-l3 text-center color-white title-1" text="CESAP"></Label>
         <Label class="font-roboto-cnd font-bold font-size-m1 text-center color-white" text="CENTRO SOCIAL DE AGENTES"></Label>
         <Label class="font-roboto-cnd font-bold font-size-m1 text-center color-white title-2" text="PATRULLEROS"></Label>
@@ -164,8 +164,8 @@
 
 .logo {
   margin-bottom: 12;
-  width: 93;
-  height: 102;
+  width: 100;
+  height: 100;
 }
 
 .input-field .ico{
